@@ -7,6 +7,9 @@ namespace gestion_empleados.Controllers
         public string GetSaludo()
         {
             return "Hola desde EmpleadosController";
+         
+           public string TestInadecuado() { return "error"; }
+
         }
     }
 }
